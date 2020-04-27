@@ -1,0 +1,235 @@
+body {
+    background-color: white;
+}
+
+.imagen-uno {
+    background-color: violet;
+    margin: 15px auto;
+    width: 75%;
+    box-shadow: 0 0 15px; color: black;
+
+}
+.imagen1 {
+    width: 250px;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 0;
+    max-width: 100%;
+    margin: 5px;
+    box-shadow: 0 0 5px; color: black;
+    display: inline-block;
+
+}
+
+.imagen-dos {
+    background-color: rgb(214, 64, 122);
+    margin: 15px auto;
+    width: 75%;
+    box-shadow: 0 0 15px; color: black;
+}
+.imagen2 {
+    width: 250px;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 0;
+    max-width: 100%;
+    margin: 5px;
+    box-shadow: 0 0 5px; color: black;
+    display: inline-block;
+}
+
+.imagen-tres {
+    background-color: darkslategrey;
+    margin: 15px auto;
+    width: 75%;
+    box-shadow: 0 0 15px; color: black;
+}
+.imagen3 {
+    width: 250px;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 0;
+    max-width: 100%;
+    margin: 5px;
+    box-shadow: 0 0 5px; color: black;
+    display: inline-block;
+}
+
+.imagen-cuatro {
+    background-color: purple;
+    margin: 15px auto;
+    width: 75%;
+    box-shadow: 0 0 15px; color: black;
+}
+.imagen4 {
+    width: 250px;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 0;
+    max-width: 100%;
+    margin: 5px;
+    box-shadow: 0 0 5px; color: black;
+    display: inline-block;
+}
+.imagen-cinco {
+    background-color: cornflowerblue;
+    margin: 15px auto;
+    width: 75%;
+    box-shadow: 0 0 15px; color: black;
+}
+.imagen5 {
+    width: 250px;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 0;
+    max-width: 100%;
+    margin: 5px;
+    box-shadow: 0 0 5px; color: black;
+    display: inline-block;
+}
+.imagen-seis {
+    background-color: crimson;
+    margin: 15px auto;
+    width: 75%;
+    box-shadow: 0 0 15px; color: black;
+}
+.imagen6 {
+    width: 250px;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 0;
+    max-width: 100%;
+    margin: 5px;
+    box-shadow: 0 0 5px; color: black;
+    display: inline-block;
+}
+
+.seccion-uno {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color: violet;
+    margin: 10px auto;
+    width: 100%;
+    box-shadow: 0 0 15px; color: black;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.seccion-dos {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color: rgb(214, 64, 122);
+    margin: 15px auto;
+    width: 100%;
+    box-shadow: 0 0 15px; color: black;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.seccion-tres {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    background-color: darkslategrey;
+    margin: 15px auto;
+    width: 100%;
+    box-shadow: 0 0 15px; color: black;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.seccion-cuatro {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    background-color: purple;
+    margin: 15px auto;
+    width: 100%;
+    box-shadow: 0 0 15px; color: black;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+
+.seccion-cinco {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: cornflowerblue;
+    margin: 15px auto;
+    width: 100%;
+    box-shadow: 0 0 15px; color: black;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.seccion-seis {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: crimson;
+    margin: 15px auto;
+    width: 100%;
+    box-shadow: 0 0 15px; color: black;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.container-uno {
+    background-color:grey ;
+    padding: 15px
+}
+
+.container-uno p {
+    border-left: 10px solid; color: white;
+    padding-left: 20px;
+    margin: 0;
+
+}
+
+.container-dos {
+    background-color: darkgray;
+    padding: 15px
+}
+
+.container-dos p{
+    border-left: 10px solid; color:white;
+    padding-left: 20px;
+    margin: 0;
+
+}
+
+.container-tres {
+    background-color: grey;
+    padding: 15px;
+}
+
+.container-tres p {
+    border-left: 10px solid; color: white;
+    padding-left: 20px;
+    margin: 0;
+
+}
+
+.container-cuatro {
+    background-color: darkgrey;
+    padding: 15px
+}
+
+.container-cuatro p {
+    border-left: 10px solid; color: white;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.container-cinco {
+    background-color: grey;
+    padding: 15px;
+}
+
+.container-cinco p {
+    border-left: 10px solid; color:white;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.container-seis {
+    background-color: darkgray;
+    padding: 15px;
+}
+
+.container-seis p {
+    border-left: 10px solid; color:white;
+    padding-left: 20px;
+    margin: 0;
+}

@@ -1,0 +1,9 @@
+.hero {
+    background-image: url('img/background/newyork.jpg');
+    background-size: 75%;
+    height: 500px;
+}
+
+.hero h1 {
+    margin: 0;
+}

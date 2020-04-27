@@ -1,0 +1,8 @@
+CLASE 24 (BEFORE Y AFTER):
+Dos pseudo elementos.
+se pone en el css las propiedades: content: ' '; y un display para que funcione el elemento
+Tooltips: cartelitos molestos que aparecen. modal...
+
+target...Funciona para darle esta funcion a un ID si o si, y cuando le das clic cumple una funcion.
+position fixed: en relacion a la pantalla visible, queda clavado.
+(volver a ver esta clase...)

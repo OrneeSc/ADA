@@ -1,0 +1,40 @@
+.container {
+    padding: 35px;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 0 0 5px; color: #333333;
+    height: 550px;
+    width: 350px;
+    padding-bottom: 20px;
+    background-color: darksalmon;
+}
+
+.header-img {
+    max-width: 50%;
+    padding: 20px;
+}
+.imagen {
+    text-align:  center;
+
+}
+
+.artist-name {
+    margin-top: 0;
+}
+
+.card-content {
+    padding: 25px;
+}
+
+.icono-img {
+    width: 30px;
+}
+
+.footer {
+ padding: 20px;
+}
+body {
+    background-color: darkkhaki;
+}

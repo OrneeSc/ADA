@@ -1,0 +1,18 @@
+CLASE 06
+
+inline-block--> lo explico bien, ver clase 6 de vuelta. 
+
+GIT BASH:
+
+Control de versiones. Git me va a permitir controlar las versiones de mi software.
+Necesito ir guardando los cambios que voy haciendo pero sin perderlos.
+HEAD: ultima versión con un número de ID (commit)
+git status: muestra todo 
+git add "."
+git config --global user.name "."
+git config --global user.email "."
+git add . = me muestra los cambios modificados
+
+ls para abrir general el directorio de las carpetas que tengo.
+cd para abrir una carpeta que yo quiera
+cd .. para bajar una carpeta, o sea para volver para atras una carpeta.

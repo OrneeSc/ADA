@@ -1,0 +1,6 @@
+MIXINGS
+@mixin heading-colors ($color-fede)
+
+se comporta usando @include y @content
+El @content en cada mixin reemplaza todo lo que
+queremos decirle que haga

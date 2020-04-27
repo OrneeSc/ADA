@@ -1,0 +1,30 @@
+CLASE 21
+
+SASS: Crear un archivo styles.scss.
+Compilar/Transpilar un archivo scss en css on gitbash:
+ 
+node-sass styles.scss > styles.css (node-sass archivo.scss > archivo-destino.css)
+
+USAMOS ESTE: 
+node-sass scss -o css (node-sass <carpeta origen> -o <carpeta destino>)
+Transpilar archivo scss de la carpeta scss a un archivo css dentro de la carpeta css
+Para ir viendo los cambios:
+node-sass --watch scss -o css
+
+Variables ($): cajitas que guardan un valor ($border-color: y elegir el color;)
+Para que el node no lo tome se lo nombra con un guion bajo el cual significa "no me tomes este archivo"
+_variables.scss
+
+Para que las variables aparezcan en el archivo styles.scss hay que importarlo:
+@import "./variables"; (sin el guion bajo)
+
+Al tener tantos archivos de variables hay que importarlos primero
+en el scss y luego hacer --watch para que lo tome.
+
+*calc(se usa para restar o sumar)
+por ejemplo:
+height: calc(100vh - 75px);
+
+
+
+

@@ -1,0 +1,8 @@
+CLASE 16
+Repaso de varias cosas.
+Label tengo que volver a mirar porque no me acuerdo
+
+Check nuevo:
+css:
+input:checked + label (+ el primer hermano)
+(~ todos los hermanos)

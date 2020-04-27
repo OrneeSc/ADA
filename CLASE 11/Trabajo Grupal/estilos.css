@@ -1,0 +1,153 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+.monsterrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: rgb(52, 187, 228);
+}
+.start {
+    align-items: center;
+    display: inline-flex;
+    justify-content: start;
+    margin-right: 50px;
+
+}
+
+.web-title {
+    display: flex;
+    align-items: center;
+    width: 60px;
+    margin: auto 15px ;
+}
+
+.web-title img {
+    width: 60px;
+}
+
+.web-menu a {
+    padding: 10px;
+}
+
+/*----------------------------------*/
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(peritomoreno.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.hero-text {
+    width: 350px;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 35px;
+    line-height: 1.5em;
+    margin: 0px;
+}
+
+.hero-text p {
+    margin: 0px 0px 20px 0;
+}
+.hero-text input, .hero-text button {
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+.hero-text input  {
+    width: 100%;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 10px rgb(52, 187, 228);
+}
+
+.hero-text button {
+    color: white;
+    background-color: rgb(52, 187, 228);
+}
+
+/*---------------------------------------------*/
+
+.inicio{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 0 60px 0 60px;
+}
+.inicio h1{
+color:  rgb(52, 187, 228);
+font-size: 24px;
+}
+.inicio h2 {
+    color: rgb(52, 187, 228);
+    font-size: 20px;
+}
+.inicio p{
+    font-size: 12px;
+}
+
+.content-about {
+   
+    display: flex; /*me entra la duda de si es lo mejor resolver esto con flex*/
+    flex-direction: column;
+    position: relative;
+    
+}
+.content-about article {
+    width: 60%;
+}
+.content-about aside img{
+   width: 10%;
+   position: absolute;
+   right: 100px;
+   top: 30px;
+}
+
+.content-about article >p:nth-child(2) {
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+.content-about article >p:nth-child(3) {
+    margin-top: 0px;
+    font-weight: 600;
+    width: 70%;
+}
+
+.content-about .linea {
+    margin-left: 89px;
+}
+
+.content-about button {
+    background-color: #007bff;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+}
+/*---------------------------------------------*/
+
+.content-services {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 0 40px 0 40px;
+}

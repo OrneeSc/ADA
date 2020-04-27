@@ -1,0 +1,7 @@
+CLASE 14
+
+Ejemplo de unos de las transiciones de los botones
+de la web que nos mando de ejemplo:
+La transicion es como una persianita blanca que baja
+
+MIRAR EL CODIGO GIT PARA COPIARME Y PRACTICAR

@@ -1,0 +1,24 @@
+CLASE 09
+
+*section contiene articles
+
+
+background-image.html (imagen de fondo) no tiene peso semantico no es parte del contenido.
+background-size: el tamaño
+background-position: para centrarlo por ejemplo
+backrground-repeat: repetir en el eje X o Y (horizontal o vertical)
+
+*Iconos
+pagina: font awesome.
+
+display block: va para abajo
+inline-block: va para el costado alineado
+
+*Flexbox: maquetar de una manera prolija nuestros elementos
+display: flex
+flex-wrap: caigan mis elementos en vez de estar en una misma linea.
+justify-content: va cambiando de lugares, los espacios entre cada elemento.
+align-items: 
+
+<a href: #seccion--> te lleva tipo scroll a alguna parte de tu web.
+Es un ID.

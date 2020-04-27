@@ -1,0 +1,21 @@
+CLASE 11
+
+*forms parte 2:
+opcion value: para dar valores y poder elegir
+<option value= "Argentina" > Argentina </option>
+
+Pseudo Selectores:
+Cambios en los botones
+button {
+cursor pointer
+transition: all 0.2s linear
+
+button:hover { cuando pasas el mousse y cambiar}
+
+button:Active {cambia cuando le haces clic}
+
+input:focus {cuando escribis, o sea lo seleccionas, cambia de color}
+
+BUSCAR
+menu desplegable
+

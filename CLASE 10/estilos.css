@@ -1,0 +1,40 @@
+body {
+    background-color: #76b852;
+    font-family: 'Roboto' ,sans-serif;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+form {
+    width: 270px;
+    background-color:  white;
+    padding: 45px;
+    box-shadow: 0 0 8px; color: gray
+    
+
+}
+input {
+    display: block;
+    height: 46px;
+    margin-bottom: 15px;
+    width: 100%;
+    padding-left: 15px;
+    background-color: #e7e6e6;
+    border: none;
+}
+
+button {
+    background-color: #4caf50;
+    border: none;
+    height: 46px;
+    width: 270px;
+    color: white;
+    font-size: 15px;
+
+}

@@ -1,0 +1,11 @@
+CLASE 12
+
+*Position(pasa x encima a flexbox)
+
+-absolute: se mueve en relacion a algun elemento q sea relativo.
+-relative: determina los parametros desde donde me muevo.
+Hay elementos que van a basarse en tu eje. Bottom abajo, top arriba.
+-fixed: queda estatico y es en relacion a toda la pantalla
+-static: nada.
+
+

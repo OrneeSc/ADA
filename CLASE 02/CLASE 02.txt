@@ -1,0 +1,58 @@
+CLASE 02
+
+TAG:
+doc
+heading: titulo
+</hr> es para hacer una linea que separa
+<a> es otro texto 
+<id> no puede repetirse. Se identifica con #.
+
+
+IDE: editor de texto con esteroide
+
+Para poner un link:
+<a href="http://www.google.com"> ACA TIENE QUE IR UN TEXTO SINO NO APARECE </a>
+
+-EDICION EN LÍNEA-
+Para editar colores de texto se pone el TAG correspondiente y la palabra STYLE (p style). 
+A continuación de eso: p style= "background-color:
+Se separa con ; punto y coma para poner "color"
+Se cierra siempre con "" 
+POR EJEMPLO: <h1 style="background-color: blueviolet;color: cornsilk;"> Hola </h1>
+
+Para repetir estilo de colores y eso:
+tag: CLASS. Se pone . punto y la palabra mas el estilo para identificarlo,
+para luego ponerlo en cualquier tag y que lo tome igual.
+
+Font-weight 600: normal, negrita
+Font-style: italic; estilo de nuestra letra, cursiva
+Font-size: 20px; El tamaño de nuestra fuente
+list-style-type: para cambiar lo que numera la lista <ul id>
+
+CSS (para diseñar aparte) - se pone el siguiente link de referencia
+
+  <link rel="stylesheet" href="style.css" /> 
+
+ESTO VA EN EL INDEX.HTML ABAJO DEL TITTLE.
+
+Y en el CSS va la referencia, por ejemplo: (este caso sería para algo simple,
+un diseño que va casi todo igual)
+p {
+    color: blue;
+}
+
+ESTO ASÍ ME INDICA QUE TODOS LOS P VAN A IR DE ESE ESTILO.
+
+Pero también van referencias de algunos elementos con la palabra CLASS 
+(para ir marcando estilos diferentes en cada elemento)
+<div class="fondo-violeta"> Y aca sigue el texto y se cierra </div>
+Y en el CSS se pone:
+
+.fondo-violeta {
+background-color: violet;
+}
+
+Y el # es para el ID:
+#mi-id {
+nombre del ID
+}

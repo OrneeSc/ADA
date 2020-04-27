@@ -1,0 +1,48 @@
+METODOLOGÍA DE TRABAJO
+
+html java script css
+
+Qué es programar?
+Darle unas serie de instrucciones a la compu para que actue. Algoritmos, secuencias de pasos.
+
+FRONTEND: Interacción-usuario
+
+Es Software. 
+Diseñamos microinteracciones y códigos. 
+
+HTML-estructura. Es un documento. Transferir documentos militares a traves de un protocolo.
+Son documentos porque se definen: tablas, parrafos, etc. Es como un word.
+
+CS6 agarra ese documento de html y lo pinta lo modifica, es la parte visual
+ (colores, letras, disposiciones,animaciones)
+
+Java Script sería la parte más interesante y grande... que es la interacción. Es lo que
+le da vida. Comportamiento de botones. Acciones. (ejemplo el contador de twitter de #)
+-Hover: cuando pasas el mouse por la pantalla y algo se mueve
+
+HTML:
+Es un lenguaje de marcado (Hyper text markup language).
+Declarar-decir
+Anidar
+Nodo
+
+HEAD para empezar el HTML
+Se marca el BODY, y luego lo que se quiera poner (por ejemplo H1-H6 es el titulo, P parrafo)
+Son etiquetas
+
+Brwoser-Chrome
+index.html es lo primero que se abre de una web
+
+TAGS
+ul= unordered list
+li= list item
+P: parrafo
+H1 Titulo
+ol: order list
+Strong: negrita
+br: para llevar el texto para abajo
+
+Sirve para tener una estructura semántica. Hay que respetarlo.
+
+TAREA:
+Buscar como hacer un link a la pagina de google

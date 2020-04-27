@@ -1,0 +1,4 @@
+CLASE 4
+
+margin auto - elemento block
+Titulo de costado derecho: text align: right

@@ -1,0 +1,52 @@
+Como hacer para que dos elementos distintos tengan el mismo background:
+TAG: 
+<div> (son como cajas, no tienen peso semántico). No usar tantos. no se puede meter
+un <div> adentro de un <p>. Es para ordenar un bloque entero que puede contener titulo, parrafo, etc.
+
+<span> para definir el estilo de una parte del texto. No puede agregar tags. Elemento de linea
+<display block> separa a los que esten juntos y se le puede dar el % del ancho de pantalla.
+
+text-decoration: underline;
+display: inline-block;
+text-align: center; (para centrar el texto)
+width: 350px;  (el ancho)
+height: 100px; (altura)
+overflow: hidden; scroll (aparece el texto con una barrita para bajar y ver todo)
+
+BOX MODEL:
+contenido
+padding: diferencia entre borde y el texto (el contenido)
+border.
+margin: 20px (se corre del margen de la página, nos separa de los demas elementos)
+box-sizing: border-box;
+
+CODIGO-->
+En html
+<div class="box model">
+            <span class="span-contenido">ORNELLA</span>
+        </div>
+
+En CSS
+.span-contenido {
+    margin: 20px;
+    display: inline-block;
+    padding: 15px;
+    border: 3px solid black
+}
+
+FUENTES:
+Enetrar en google fonts, elegir la fuente, descargarla y te aparece una ventana abajo ya con el link
+para poner abajo del tittle y luego el código para CSS.
+
+INSERTAR IMAGENES:
+img:
+src: source (de donde es la fuente)
+alt: texto alternativo
+
+
+
+
+
+
+
+

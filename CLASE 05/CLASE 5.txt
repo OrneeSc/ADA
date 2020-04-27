@@ -1,0 +1,29 @@
+CLASE 05
+
+.container 
+.quote-name (es como un cuadradito)
+
+box shadow (una sombra para un bloque)
+box-shadow: 0(posicion arriba y abajo) 0 (posicion derecha izquierda) 0(difuminado) y color. 
+Para que quede una sombra le puso: 10 px 25 px 0 y black
+
+*card--> sección, html, que representa una tarjeta con cierto grado de informacion de algun tipo
+puede ser un texto y un titulo. 
+
+card.html (DOCTYPE se agrega)
+card.css
+hover: pasar el mouse por encima y que se mueva
+border radius: circulito 50%
+
+En el HTML de los beatles poner:
+<a href= "card.html"> llevame a ver las cards! </a>
+Genera un link en la web
+
+-codepen.io es una web para entrar a diseñar cards
+-header: el encabezado y -contenido
+
+La card tiene dos partes: EL header que es el encabezado, donde esta la foto
+y el contenido que es el texto. 
+FOOTER: para poner links de referencia y con su icono correspondiente
+FIN
+

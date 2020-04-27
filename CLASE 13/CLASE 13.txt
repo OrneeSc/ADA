@@ -1,0 +1,19 @@
+CLASE 13
+
+*Transiciones
+en CSS:
+transition-property: a qué le cambiamos: Background por ejemplo
+transition-duration: en segundos
+transition-timing-function: linear;
+
+h1:hover {
+background: cambiar el color
+
+las transiciones hay q ponerlas en la propiedad que estamos modificando
+si lo ponemos en hover, solo hace la transiciones del hover
+y no del total.
+
+no todas las propiedades son transicionales
+*overlay: transicion arriba de una foto como la consigna de tarea
+*position absolute arriba de la imagen
+*y la imagen va con position relative.

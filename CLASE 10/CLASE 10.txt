@@ -1,0 +1,50 @@
+CLASE 10
+
+como hacer formularios?
+Tag: <form> </form>
+valores obligatorios: 
+action(lugar al que yo quiero mandar mi informacion) y method (puede tomar dos valores get y post).
+GET- llama a algo, te lleva a algo
+POST - redirección a una página.
+
+
+<form action= "la web " method= "GET"
+<input type= "text" name= "mi-texto"/>
+<button type= "submit"> (boton)
+<input type= "number" name= "edad" /> (para numeros)
+<input type= "checkbox" name= "check" value="loquesemeocurra" (para tildar)
+<input type= "email" name= "email"/>
+input date
+input radio value 1,2,3....
+
+<label> Es la etiqueta que llevaria mi INPUT
+placeholder es un ejemplo, una muestra, del dato que queremos que ingrese el usuario.
+<input type= "number" name= "edad" placeholder= "25" />
+maxlenght= "10" (limita los caracteres)
+
+"El button type submit, toma todos los datos de los INPUTS que tiene adentro 
+y se los pasa al ACTION que le indicaron en el FORM con el método que 
+le dijeron (GET)" 
+
+En la TAREA del formulario FEDE agrego un ID al FORM, que nosotras no lo hicimos:
+"login-form {
+background-color: white
+box-sizing: border-box
+padding: 45px
+width: 360px
+}
+
+body {
+align-items: center;
+background-color: ....
+display: flex;
+height: 100vh;
+justify-content: center;
+margin: 0;
+}
+
+v(width)/v(hieght): unidades hasta 100, ocupo todo el ancho de la pantalla.
+
+API--> Es la que maneja la logica de mi app. Servidor remoto. Lo mete en mi base de datos
+el signo de pregunta significa que lo que viene dsps de eso es:
+Query Parameter (parametros de query)

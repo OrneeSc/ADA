@@ -1,0 +1,10 @@
+CLASE 20:
+Repaso de input, nav, menu desplegable.
+
+Generador de box: https://www.cssmatic.com/box-shadow
+Un label  puede ir en cualquier lado, no solamente despues del input
+y se identifica con un #ID. 
+
+SASS: (syntactically awesome style sheets
+)
+Instalamos NODE.

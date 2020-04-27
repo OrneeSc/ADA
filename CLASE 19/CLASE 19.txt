@@ -1,0 +1,25 @@
+CLASE 19
+
+VIEWPORT: la pantalla que ve el usuario.
+Responsive: poder hacer el CSS tanto para mobil como para web.
+Cambiar estilos. Lo que cambia es el ancho, el alto se hace scroll.
+
+/Breakpoint de mobile /
+@media (min-width 320px)
+
+/Breakpoint de mobile 2 /
+@media (min-width 414px)
+
+/Breakpoint de tablet /
+@media (min-width 768px)
+
+/Breakpoint de desktop/tablet /
+@media (min-width 955px)
+
+/Breakpoint de desktop /
+@media (min-width 1024px)
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+
+

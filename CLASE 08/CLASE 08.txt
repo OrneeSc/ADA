@@ -1,0 +1,23 @@
+CLASE 08
+
+Tags...
+div y span son elementos sin significado, solo estilisticos.
+
+<Section: Agrupar el contenido de alguna manera.
+Se le puede dar clases tambien. 
+En cada section puede haber un <header> y <footer.> 
+Adentro hay más contenido
+<Article: contenido.  Adentro del article van los <p> por ejemplo.
+<Aside: contenido relacionado. Por ejemplo una <p>
+
+Puede haber secciones adentro de secciones..
+www.codepen.io paginas landing de ejemplo
+Para poner un menu de navegacion con links en un header se pone con
+<nav>
+
+Agrupar contenido: <main>
+Aca adentro empiezan las section con todo lo que corresponde adentro...
+
+EL hero se pone con <section id= "notas">
+
+

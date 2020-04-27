@@ -1,0 +1,19 @@
+.cubito {
+    width: 100px;
+    height: 100px;
+}
+
+.cubito.pink {
+    background-color: pink;
+}
+
+.cubito.purple {
+    background-color: purple;
+}
+.cubito.cyan {
+    background-color: cyan;
+}
+.cubitos-container {
+    display: flex;
+    margin-bottom: 30px;
+}
