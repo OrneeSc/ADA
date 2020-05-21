@@ -1,0 +1,13 @@
+SEGUIMOS CON JS
+
+*Back tild ´ tilde para atrás
+
+Libreria: herramienta q me va a permitir realizar una tarea
+mas facil. recursos.
+
+=== es tipo una pregunta para saber si dos cosas son iguales
+(a===b)
+
+!== es diferente. 
+
+&& ( para comparar una *y* la otra).

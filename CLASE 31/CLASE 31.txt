@@ -1,0 +1,33 @@
+CLASE 31 - JS
+
+=== comparadores estrictos. Comparan valor y tipo de dato.
+por ejemplo: 
+console.log(1 === 1); // true
+console.log(1 === "1"); // false porque son dos datos distintos.
+
+== comparadores comunes. Comparan el valor, el dato puede variar
+por ejemplo:
+console.log(1 == 1); // true
+console.log(1 == "1"); // true. Porque los 1 tienen mismo valor
+
+0 y 1 son binarios. 0 es false y 1 es true.
+
+Lo mismo con !== / !=
+
+TRUTHY 
+Existe valor, por lo tanto es true.
+Por ejemplo: if(1)
+
+FALSY
+No tiene valor.
+Por ejemplo: if(0)
+
+OPERADOR TERNARIO. Es un if simplificado. Se pone una condicion 
+entre el = y el ? y te responde si es true o false
+True se separa de false con :
+
+\n para hacer un salto de linea en un prompt.
+
+
+
+

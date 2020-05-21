@@ -1,0 +1,30 @@
+CLASE 33
+
+En HTML se puede poner una funcion con a href para que al hacer clic
+te direccione a ese link sin salir de tu web.
+<a href="https://google.com" target=_blank
+
+SWITCH: (es parecido a los if). Ejecuta un valor para una variable
+
+let switchVar = 1;
+let variable;
+
+switch (switchVar){
+  case 1:
+        variable = "a";
+        break;
+  case 2: "b"
+        variable = "b";
+        break;
+  case 3:
+        variable = "c";
+        break;
+  default: 
+        variable = "x"
+
+Con el break se corta lo que queres que te tome. Si no le ponemos
+ningun break, va a tommar el valor de default..
+
+
+THROW: lanzar un error (uncaught)
+TRY y CATCH (para que no me frene el resto del programa)

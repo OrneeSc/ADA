@@ -1,0 +1,23 @@
+CLASE 34
+
+*BUCLE*(LOOP)
+while (numero < 5) {
+console.log(numero);
+numero++;
+}
+console.log("continua por aca");
+
+la consola imprime:
+1
+2
+3
+4
+continua por aca
+
+Que pasa con este loop? Al darle enter imprime la cantidad 
+de numeros que se cumplan dentro de la condicion. Hace un loop
+Si queremos que tome el valor entre () hay que poner
+<=
+por ejemplo:
+let numero = 1;
+while (numero <=5)

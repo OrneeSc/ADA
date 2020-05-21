@@ -1,0 +1,4 @@
+CLASE 35: ver clase de vuelta no entendi una mierda
+
+FOR (es un loop como while):
+DO ejecutar WHILE y preguntar dsps por la condicion.
