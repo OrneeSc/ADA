@@ -1,0 +1,33 @@
+CLASE 29: JAVASCRIPT
+
+Programar es comunicarnos con la computadora
+darle ordenes, instrucciones y que las cumpla.
+
+Script: un archivo con una serie de instrucciones
+
+alert("hola soy orne") -- abre una ventanita ed alerta con el mensaje
+console.log("hola soy orne") --manda un mensaje a la consola.
+console.log(variable3); y abajo imprime el valor de la variable: hola!
+
+En visual studio: .js
+Para crear una variable: LET y el nombre (let miVariable)
+Y el = es darle el valor a esa variable por ejemplo: (let docente = "fede")
+Sin comillas la consola entiende que llamamos a una variable y no al valor.
+
+Todo lo que guardamos en variables con "", son datos.
+
+typeof:
+undefined
+null
+number/number float
+boolean
+string
+
+Prompt(muestra un cartelito y se puede completar)
+Prompt number:
+let variableNumber = prompt("¿Como te llamas?");
+typeof variableNumber
+variableNumber = parseInt(prompt("¿Cuantos años tenes?"));
+typeof variableNumber
+
+CONST: no se pueden modificar los valores que ya tienen.
