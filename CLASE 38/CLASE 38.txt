@@ -1,0 +1,11 @@
+CLASE 38:
+
+indexOf devuelve el indice de la posicion en la que esta
+
+FUNCIONES:
+se define primero
+const myFunction = () => {
+// codigo a ejecutar //
+}
+y se ejecuta invocandola:
+myFunction():

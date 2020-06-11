@@ -132,7 +132,6 @@ do {
     i++;
 } while (i <= 13);
 
-
 /6/
 /**
  * Mostrar en consola los números de 10 en 10 desde el 0 hasta el 10000 usando for

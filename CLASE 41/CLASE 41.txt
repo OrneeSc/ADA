@@ -1,0 +1,16 @@
+CLASE 41
+funciones repaso
+-no entendi nada-
+
+*Filter: Filtra adentro del callback y da return
+
+*Map: agrega una palabra por ejemplo, a cada elemento de mi 
+array por ejemplo:
+const callback = palabra => palabra + "pepe";
+arr = arr.map(callback);
+console.log(arr);
+
+*Find: cuando encuentra se corta la ejecución.
+*FindIndex: Devuelve el indice de un valor del array.
+Cuando lo encuentra tambien corta la ejecucion. Si no lo encuentra
+devuelve -1.

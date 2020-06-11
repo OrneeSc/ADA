@@ -1,0 +1,32 @@
+CLASE 36: ARRAY
+Son tipo vectores
+
+Se escriben entre [] y con ,
+por ejemplo:
+let miArray = [0,1,2,3,4,5];
+Luego para llamar algun valor dado, se lo llama así:
+miArray [2] y te lo imprime
+pueden ir numeros, strings y booleanos.
+push: funciones
+Se trabajan con const siempre.
+se les puede cambiar el contenido, pero no el nombre del const
+por ejemplo:
+usuarios [0] = "cambiar el valor" esta ok
+usarios = [Hola] esta mal. no te deja
+.split convierte string a array
+.unshift agrega un valor al principio del array
+.push agrega un valor al final del array
+.shift elimina el primer valor de la lista del array
+.pop elimina el ultimo valor de la lista del array.
+.join(), joint(' ') --- para convertir de array a string
+.splice (cambia un valor x otro):
+const months = ['Jan', 'March', 'April', 'June'];
+months.splice(1, 0, 'Feb');
+// inserts at index 1
+console.log(months);
+// expected output: Array ["Jan", "Feb", "March", "April", "June"]
+
+months.splice(4, 1, 'May');
+// replaces 1 element at index 4
+console.log(months);
+// expected output: Array ["Jan", "Feb", "March", "April", "May"]

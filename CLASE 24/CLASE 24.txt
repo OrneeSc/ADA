@@ -6,3 +6,7 @@ Tooltips: cartelitos molestos que aparecen. modal...
 target...Funciona para darle esta funcion a un ID si o si, y cuando le das clic cumple una funcion.
 position fixed: en relacion a la pantalla visible, queda clavado.
 (volver a ver esta clase...)
+el # entendemos que va en un href y en los estilos se modificca
+solamente lo que aparece con ese target.
+en el ejemplo de fede hicimos un # en un href y lo coincidimos
+con un Aside, que es lo que aparece desplegable.

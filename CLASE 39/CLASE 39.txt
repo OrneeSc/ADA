@@ -1,0 +1,19 @@
+CLASE 39: seguimos con funciones.
+
+Parametros. Se le agregan valores entre parentesis
+let myFunction = (param1, param2) => {
+console.log(param1)}
+myFunction(2,4);
+
+.foreach(ES UNA FUNCION) las funciones q recibe por parametro
+se le llama callbacks-->
+arr.forEach
+.arr.map
+arr.filter
+arr.find
+arr.findIndex
+arr.reduce
+
+.find busca el valor que le pedis en el Array, y te lo imprime.
+.indexOf busca en que indice esta el valor que buscas.
+
