@@ -1,0 +1,9 @@
+CLASE 48
+Vimos una nueva sintaxis de como armar una funcion
+con un objeto adentro. una funcion que al invocarla con NEW, nos cre un objeto.
+
+
+En el ejercicio de las pelis tendría que haber hecho una funcion
+y adentro crear el objeto y darle return
+para despues hacer variables con los nombres de las personas
+y su info de peli cada uno.

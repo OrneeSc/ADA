@@ -45,3 +45,21 @@ const myFuntion = (phrase) => {
     }
     console.log(myArray);
  }
+////////////////////////
+//forEach
+const Array = [1,2,3,4];
+Array.forEach((item, index) =>{
+console.log(item,index);
+});
+
+//MAP
+const nuevoArray = [1,2,3,4];
+Array.map((item, index) =>{
+console.log(nuevoArray);
+});
+
+//////////////
+const Array = [1,2,3];
+const nuevoArr = [1,2,3].map(item => item + 1);
+console.log(nuevoArr);
+/////////////

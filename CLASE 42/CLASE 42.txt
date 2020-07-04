@@ -1,7 +1,0 @@
-CLASE 42*
-Objetos: es una coleccion de variables/propiedades, funciones/metodos.
-const objeto = {}
-funciones comunes: tienen scope propio
-funciones arrow: no tienen scope propio
-scope=alcance
-Para llamar adentro de una funcion con objeto se pone this.
