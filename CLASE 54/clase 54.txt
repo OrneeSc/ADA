@@ -1,0 +1,14 @@
+CLASE 54
+Fede hizo los test del ejercicio del carrito y catálogo
+TEMA NUEVO: CLASES
+nueva forma de definir objetos, nueva sintaxis.
+en vez de function y el nombre, se pone ahora: class
+se le pasan los parametros con un constructor
+
+class Gato {
+   constructor (nombre,edad, vidas = 7) {
+     this.nombre = nombre;
+     this.edad = edad;
+     etc.....
+
+Las clases tienen algo que se llaman metodos estaticos.

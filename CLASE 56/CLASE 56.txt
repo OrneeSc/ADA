@@ -1,0 +1,7 @@
+CLASE 56
+Seguimos con clases. Tienen una herencia.
+
+Extends-->extenciones de clases.
+"super" ejecuta el constructor de la clase que extiende.
+entonces armas una nueva clase le pones extends y 
+abajo de constructor le pones: super y ahi le pasas los parametros
