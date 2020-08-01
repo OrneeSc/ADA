@@ -1,0 +1,56 @@
+.ej-1, .ej-5 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+    padding: 15px;
+}
+
+.ej-1 > h1 {
+    color: blue;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ej-1 > button {
+    background-color: bisque;
+    border: 2px solid bisque;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.ej-3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    padding: 15px;
+}
+
+.ej-3  a.link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.active {
+    background-color: blueviolet;
+}
+
+.ej-5 ul {
+    width: 250px;
+}
+.no-mostrar {
+    display: none;
+}
+.mostrar {
+    height: 50%;
+    width: 50%;
+    display: inline;
+}
