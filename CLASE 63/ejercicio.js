@@ -14,25 +14,43 @@ const addTodo = () => {
     const tarea = document.querySelector("input").value;
     const span = document.createElement("span"); 
     const li = document.createElement("li");
+    //para tachar
     const checkbox = document.createElement("input")
     checkbox.type = "checkbox";
+    //boton
     const deletebutton = document.createElement("button");
-    //deletebutton.type = "button";
-    //deletebutton.createTextNode("ELIMINAR");
-    if (tarea === "") throw new Error ('No inrgesaste ninguna tarea');
+    deletebutton.type = "button";
+    deletebutton.innerText = "Delete"; 
+    if (tarea === "") throw new Error ('No ingresaste ninguna tarea');
     span.innerText = tarea;
-    
     document.querySelector("input").value = "";
-    li.appendChild(deletebutton);
+
+    //agregar al html
     li.appendChild(checkbox);
     li.appendChild(span);
-    
+    li.appendChild(deletebutton);
     document.querySelector("ul").appendChild(li);  
+
+    //borrar
+    const borrarTodo = event => {
+        const botonBorrar = event.target.parentElement;
+        botonBorrar.remove();
+    };
+    //accion borrar
+    deletebutton.addEventListener("click", borrarTodo);
+
+    //checkbox tachar
+    checkbox.classList.add("check");
     
 };
 
 const load = () => {
     const button = document.querySelector("button");
     button.addEventListener("click", addTodo);
-    
+    const tarea = document.querySelector("input")
+    tarea.addEventListener("keypress", event => {
+        if(event.keyCode === 13){
+            addTodo();
+        };
+    });
 };
