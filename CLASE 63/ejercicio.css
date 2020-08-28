@@ -1,3 +1,24 @@
 .check:checked + span {
     text-decoration: line-through;
 }
+
+.lista {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    padding: 10px;
+    margin: 10px;
+    height: 20px;
+    width: 200px;
+}
+
+.button {
+    font-family: 'Anton', sans-serif;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
