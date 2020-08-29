@@ -1,0 +1,32 @@
+.card {
+    padding: 5px;
+    width: 340px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(36, 235, 152);
+    text-align: center;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    font-size: 15px
+}
+
+.checkbox-style {
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    margin: 6px;
+    width: 100%;
+    padding: 21px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

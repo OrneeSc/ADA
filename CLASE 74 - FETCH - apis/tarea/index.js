@@ -2,25 +2,25 @@
 (https://jsonplaceholder.typicode.com/users/6) 
 hacer un get y mostrar todas las propiedades que puedan cada una en su propio <input>*/
 
-let arrayConData = [];
-const load = () => {
-   /* axios.get("https://jsonplaceholder.typicode.com/users/6")
-    .then(res => arrayConData = res.data.username)
-    .catch(err => console.log(err));
 
-    const postsButton = document.querySelector("#posts-button");
+const load = () => {
+    const postsButton = document.querySelector("#button");
     postsButton.addEventListener("click", () => {
-        document.querySelector("#posts").value = JSON.stringify(arrayConData);
-    });*/
     
     axios.get("https://jsonplaceholder.typicode.com/users/6")
-    .then(res => arrayConData = res.data.username)
+    .then( res => {
+        document.querySelector("#name").value = res.data.name;
+        document.querySelector("#Username").value = res.data.username;
+        document.querySelector("#Email").value =  res.data.email;
+        document.querySelector("#Street").value = res.data.address.street;
+        document.querySelector("#Suite").value = res.data.address.suite;
+        document.querySelector("#City").value =  res.data.address.city;
+        document.querySelector("#ZipCode").value =  res.data.address.zipcode;
+        document.querySelector("#GeoLat").value =  res.data.address.geo.lat;
+        document.querySelector("#GeoLng").value = res.data.address.geo.lng;
+        document.querySelector("#Phone").value = res.data.phone;
+        document.querySelector("#Website").value =  res.data.website;
+    })
     .catch(err => console.log(err));
-
-    const postsButton = document.querySelector("#posts-button");
-    postsButton.addEventListener("click", () => {
-        document.querySelector("#posts").value = JSON.stringify(arrayConData);
-    });
-
-    
-};
+})
+}
