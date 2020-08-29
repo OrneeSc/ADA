@@ -12,10 +12,6 @@ const load = () => {
                 const li = document.createElement("li") 
                 li.id = res.data[i].id;
                 li.innerText = res.data[i].title;
-                li.style.listStyle = "none";
-                li.style.fontFamily = "Verdana, Geneva, Tahoma, sans-serif";
-                li.style.textTransform = "uppercase";
-                li.style.marginBottom = "10px";
                 li.classList.add("card");
                 
                 const checkbox = document.createElement("input")
@@ -25,10 +21,11 @@ const load = () => {
                 const user = usuarios.find(user => user.id === res.data[i].userId);
                 
                 li.innerHTML = li.innerHTML + user.name + user.email;
+
                
                 const tareaCompleta = res.data[i].completed;
                 if(tareaCompleta){
-                    li.style.color = "blue";
+                    li.style.color = "white";
                     checkbox.checked = true;
                 } 
     
