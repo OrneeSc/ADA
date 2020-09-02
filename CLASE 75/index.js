@@ -32,11 +32,8 @@ const load = () => {
                 li.appendChild(checkbox);
                 document.querySelector("ul").appendChild(li);
             };
-        })
-        
-       
+        }) 
     });
-    
 };
 
 
