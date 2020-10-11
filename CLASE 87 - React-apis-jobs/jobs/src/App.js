@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './App.scss';
 import Table from './Componentes/Table/Table';
 import axios from 'axios';
@@ -6,7 +6,7 @@ import axios from 'axios';
 function App() {
 
   const [users, setUsers] = useState([]);
-  const[jobs, setJobs] = useState([]);
+  const [jobs, setJobs] = useState([]);
 
   const getPost = async () =>{
     try{
