@@ -1,0 +1,33 @@
+.header{
+    align-items: center;
+    background-color:#851D41;
+    display: flex;
+    height: 70px;
+    justify-content:space-evenly;
+    padding: 5px 0;
+    .header-tittle{
+        color: white;
+        font-family: "Arial";
+    }
+    .header-button{
+        background-color: #FFB99A;
+        border: none;
+        border-radius: 5px;
+        color: #851D41;
+        font-family: "Arial";
+        font-size: 15px;
+        text-align: center;
+        height: 35px;
+        padding: 10px;
+        width: 100px;
+        cursor: pointer;
+        transition: 0.2s linear;
+        outline: none;
+        .faPlus{
+            margin-left: 5px;
+        }
+        &:hover{
+            background-color: white;
+        }
+    }
+}
