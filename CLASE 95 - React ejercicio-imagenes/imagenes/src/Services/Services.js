@@ -11,9 +11,9 @@ export const getImg = async () => {
     }
 }
 
-export const postImg = async ({title, img}) => {
+export const postImg = async (title, url) => {
     try {
-        const newImg = {title, img};
+        const newImg = {title, url};
         const res = await axios.post(api, newImg);
         return res.data;
     }catch(err) {

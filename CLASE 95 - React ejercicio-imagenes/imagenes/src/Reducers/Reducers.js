@@ -6,7 +6,7 @@ export default (state, action) => {
         case INIT:
             return action.init;
         case ADD:
-            return [...state, action.init];    
+            return [...state, action.payload];    
         default: 
             return state;
     }

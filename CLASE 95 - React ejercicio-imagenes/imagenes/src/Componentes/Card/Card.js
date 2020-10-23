@@ -4,9 +4,10 @@ import './Card.scss';
 const Card = ({children}) => {
 
     return (
-        <div>
+        <React.Fragment>
             {children}
-        </div>
+        </React.Fragment>
+      
     )
 }
 

@@ -1,17 +1,11 @@
-import React, {useState, useReducer, useEffect} from 'react';
+import React, {useContext} from 'react';
 import './Carrousel.scss';
-import reducer, {INIT} from '../../Reducers/Reducers';
-import {getImg} from '../../Services/Services';
 import Card from '../Card/Card';
+import DataContext from '../../Context/DataContext';
 
 const Carrousel = () => {
-    const [data, dataDispatch] = useReducer(reducer,[]);
 
-    useEffect(() => {
-        const promise = getImg();
-        promise.then(data => dataDispatch({ type: INIT, init: data }));
-    }, []);
-
+    const {data} = useContext(DataContext);
 
     return (
         <div className='carrousel'>
