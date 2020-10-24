@@ -1,0 +1,7 @@
+CLASE 97 tema nuevo - react router
+
+yarn add react-router-dom
+
+<BrowserRouter>
+aca adentro van los componentes para poder navegar
+y luego <Switch> <Route exact path= '/'> y aca adentro el componente que cambia para que te haga bien el url.

@@ -1,0 +1,51 @@
+.main-header{
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    justify-content:space-around;
+    box-shadow: 0 0 15px #999;
+    background: #BC8DA7;
+    color: white;
+    flex-direction: row;
+    height: 75px;
+}
+.logo-header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+h1{
+    margin: 0;
+    padding-left: 10px;
+    text-shadow: 1px 1px 1px  #D9D9D9 ; 
+    font-family: 'Patrick Hand', cursive;
+}
+nav {
+    margin-left: 25px;
+    cursor: pointer;
+    transition: all 0.2s linear;  
+}
+a{
+    color: #D9D9D9;  
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 600;
+    font-family: 'Patrick Hand', cursive;
+}
+a:focus{ 
+    color: white;
+    transition:  0.2s linear;
+}
+
+body{
+    background-color: #D9D9D9;
+}
+.faFemale{
+    font-size: 28px;
+    padding: 10px;
+}
+.faIcons{
+    color:#D9D9D9;
+    margin: 0;
+    padding-right: 0;
+}
