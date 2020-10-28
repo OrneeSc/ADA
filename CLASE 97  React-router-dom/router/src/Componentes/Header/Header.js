@@ -4,8 +4,10 @@ import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFemale, faUserGraduate, faPhone, faLaugh } from '@fortawesome/free-solid-svg-icons';
 
+
 const Header = () => {
     return (
+        
         <header className="main-header">
 
            <div className="logo-header">

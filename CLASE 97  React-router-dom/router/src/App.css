@@ -1,0 +1,13 @@
+h2{
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(59, 59, 59);
+    font-family: 'Advent Pro', sans-serif;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-family: 'Advent Pro', sans-serif;
+}
